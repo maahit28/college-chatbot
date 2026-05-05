@@ -1,0 +1,222 @@
+{
+  "project": "AI-Based Intelligent Enquiry Chatbot for Himachal Pradesh Colleges",
+  "version": "1.0",
+  "colleges": {
+    "NIT Hamirpur": {
+      "about": "National Institute of Technology, Hamirpur - Premier NIT in Himachal Pradesh",
+      "location": "Hamirpur, HP - 177005",
+      "type": "Government NIT (CFTI)",
+      "established": 1986,
+      "intents": {
+        "greetings": {
+          "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "howdy", "greetings", "what's up", "namaste", "hi there"],
+          "responses": ["Hello! Welcome to NIT Hamirpur enquiry. How can I assist you today?", "Hi there! I'm the NIT Hamirpur virtual assistant. Ask me anything!", "Namaste! How can I help you with NIT Hamirpur information?"]
+        },
+        "fees": {
+          "patterns": ["what is the fee", "fees structure", "how much fees", "annual fees", "semester fees", "tuition fee", "total fees", "fee details", "how much does it cost", "fee per year"],
+          "responses": ["NIT Hamirpur B.Tech fee is approximately 1,48,700/year for general category. SC/ST students pay 48,700/year. The fee includes tuition, hostel, and mess charges.", "The tuition fee at NIT Hamirpur is 1,00,000/semester. Total B.Tech (4 year) expenditure is approximately 5.5-6 lakhs."]
+        },
+        "courses": {
+          "patterns": ["courses available", "what courses", "which programmes", "branches offered", "engineering courses", "what can i study", "list of courses", "available programmes", "departments", "what do you offer"],
+          "responses": ["NIT Hamirpur offers B.Tech in: CSE, ECE, EE, ME, CE, Chemical Engineering, and Material Science. Also offers M.Tech and PhD programmes.", "Programmes at NIT Hamirpur: B.Tech (7 branches), M.Tech (multiple specializations), MBA, MSc, and PhD across all major engineering disciplines."]
+        },
+        "hostel": {
+          "patterns": ["hostel facility", "accommodation", "hostel available", "hostel charges", "hostel rooms", "boarding facility", "where will i stay", "campus accommodation", "hostel fee", "is hostel available"],
+          "responses": ["NIT Hamirpur has separate hostels for boys and girls. 8 boys hostels and 2 girls hostels are available. Charges approx. 40,000/year including mess.", "Hostel accommodation is available for all students at NIT Hamirpur. Modern facilities with Wi-Fi, gym, and mess services are provided."]
+        },
+        "placements": {
+          "patterns": ["placement record", "how are placements", "highest package", "companies visit", "placement percentage", "average salary", "job opportunities", "campus recruitment", "placement stats", "average package"],
+          "responses": ["NIT Hamirpur placement 2023: Highest package 44 LPA (Microsoft), Average package 8.5 LPA. 85%+ students placed. Top recruiters: TCS, Infosys, Wipro, Amazon, Zomato.", "Excellent placement record at NIT Hamirpur! 150+ companies visit campus. CSE branch average package is 12 LPA. Core engineering branches average 6-8 LPA."]
+        },
+        "contact": {
+          "patterns": ["contact number", "phone number", "email address", "how to contact", "admission office", "address", "website", "helpline", "get in touch", "reach them"],
+          "responses": ["NIT Hamirpur Contact: Phone: 01972-254001 | Email: info@nith.ac.in | Website: www.nith.ac.in | Address: NIT Hamirpur, HP - 177005"]
+        },
+        "exit": {
+          "patterns": ["bye", "goodbye", "see you", "thanks", "thank you", "exit", "quit", "done", "that's all", "no more questions"],
+          "responses": ["Thank you for enquiring about NIT Hamirpur! Best of luck with your admission. Goodbye!", "Glad I could help! Feel free to return anytime. All the best!"]
+        }
+      }
+    },
+    "IIT Mandi": {
+      "about": "Indian Institute of Technology Mandi - IIT in HP with focus on innovation",
+      "location": "Kamand, Mandi, HP - 175075",
+      "type": "Central Government IIT",
+      "established": 2009,
+      "intents": {
+        "greetings": {
+          "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "howdy", "greetings", "namaste", "hi there", "what's up"],
+          "responses": ["Hello! Welcome to IIT Mandi enquiry chatbot. How may I assist you?", "Hi! I'm the IIT Mandi virtual assistant. What would you like to know?"]
+        },
+        "fees": {
+          "patterns": ["what is the fee", "fees structure", "how much fees", "annual fees", "semester fees", "tuition fee", "total fees", "fee details", "how much does it cost", "fee per year"],
+          "responses": ["IIT Mandi B.Tech fee: 2,00,000/year for general category. SC/ST/PH students pay 12,000/year. Hostel + Mess adds 50,000-70,000/year.", "Total IIT Mandi B.Tech cost (4 years) is approximately 10-12 lakhs for general category including all expenses."]
+        },
+        "courses": {
+          "patterns": ["courses available", "what courses", "which programmes", "branches offered", "engineering courses", "what can i study", "list of courses", "available programmes", "departments", "what do you offer"],
+          "responses": ["IIT Mandi offers B.Tech in: CSE, ECE, EE, ME, CE, Data Science & AI, and Bioscience. Also M.Tech, MS (Research), and PhD programmes.", "Unique programmes at IIT Mandi include B.Tech in Data Science & AI, Smart Manufacturing, and Mechanical Engineering with focus on Innovation & Design."]
+        },
+        "hostel": {
+          "patterns": ["hostel facility", "accommodation", "hostel available", "hostel charges", "hostel rooms", "boarding facility", "where will i stay", "campus accommodation", "hostel fee", "is hostel available"],
+          "responses": ["IIT Mandi has a beautiful campus in Kamand valley. All students are required to stay in hostels. Monthly mess charges: 3,500-4,500. Modern amenities with mountain views!"]
+        },
+        "placements": {
+          "patterns": ["placement record", "how are placements", "highest package", "companies visit", "placement percentage", "average salary", "job opportunities", "campus recruitment", "placement stats", "average package"],
+          "responses": ["IIT Mandi placement 2023: Highest package 62 LPA (International), Average 14.5 LPA. 90%+ placement rate. Top recruiters: Google, Microsoft, Samsung R&D, Qualcomm, DE Shaw."]
+        },
+        "contact": {
+          "patterns": ["contact number", "phone number", "email address", "how to contact", "admission office", "address", "website", "helpline", "get in touch", "reach them"],
+          "responses": ["IIT Mandi Contact: Phone: 01905-267001 | Email: registrar@iitmandi.ac.in | Website: www.iitmandi.ac.in | Address: IIT Mandi, Kamand, Mandi, HP - 175075"]
+        },
+        "exit": {
+          "patterns": ["bye", "goodbye", "see you", "thanks", "thank you", "exit", "quit", "done", "that's all", "no more questions"],
+          "responses": ["Thank you for exploring IIT Mandi! Wishing you great success in your academic journey!", "Goodbye! Feel free to come back with more queries. Best wishes!"]
+        }
+      }
+    },
+    "HPU Shimla": {
+      "about": "Himachal Pradesh University - Main state university located at Summer Hill, Shimla",
+      "location": "Summer Hill, Shimla, HP - 171005",
+      "type": "State University",
+      "established": 1970,
+      "intents": {
+        "greetings": {
+          "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "howdy", "greetings", "namaste", "hi there", "what's up"],
+          "responses": ["Hello! Welcome to Himachal Pradesh University enquiry chatbot!", "Namaste! How can I assist you with HPU Shimla information today?"]
+        },
+        "fees": {
+          "patterns": ["what is the fee", "fees structure", "how much fees", "annual fees", "semester fees", "tuition fee", "total fees", "fee details", "how much does it cost", "fee per year"],
+          "responses": ["HPU Shimla is very affordable! BA/BSc/BCom: 3,000-8,000/year. PG courses: 10,000-25,000/year. Professional courses (BCA, MBA) range 30,000-80,000/year."]
+        },
+        "courses": {
+          "patterns": ["courses available", "what courses", "which programmes", "branches offered", "arts courses", "science courses", "what can i study", "list of courses", "available programmes", "departments"],
+          "responses": ["HPU Shimla offers: BA (20+ subjects), BSc, BCom, BCA, MBA, MCA, MA, MSc, LLB, PhD across 32 teaching departments.", "HPU has 32 teaching departments with 100+ courses. Notable: Mass Communication, Tourism, Sanskrit, Law, Fine Arts."]
+        },
+        "hostel": {
+          "patterns": ["hostel facility", "accommodation", "hostel available", "hostel charges", "hostel rooms", "boarding facility", "where will i stay", "campus accommodation", "hostel fee", "is hostel available"],
+          "responses": ["HPU Shimla has hostel facilities for boys and girls separately. Located on Summer Hill, Shimla. Hostel fee is very nominal at 15,000-20,000/year including mess."]
+        },
+        "placements": {
+          "patterns": ["placement record", "how are placements", "highest package", "companies visit", "placement percentage", "average salary", "job opportunities", "campus recruitment", "placement stats", "average package"],
+          "responses": ["HPU Shimla has a dedicated placement cell. MBA and MCA students get good placements with average packages 3-5 LPA. Government jobs are also popular among HPU graduates."]
+        },
+        "contact": {
+          "patterns": ["contact number", "phone number", "email address", "how to contact", "admission office", "address", "website", "helpline", "get in touch", "reach them"],
+          "responses": ["HPU Shimla Contact: Phone: 0177-2830595 | Email: registrar@hpuniv.ac.in | Website: www.hpuniv.ac.in | Address: Summer Hill, Shimla, HP - 171005"]
+        },
+        "exit": {
+          "patterns": ["bye", "goodbye", "see you", "thanks", "thank you", "exit", "quit", "done", "that's all", "no more questions"],
+          "responses": ["Thank you for enquiring about HPU Shimla! Best of luck for your future!", "Goodbye! Visit HPU's beautiful Shimla campus sometime!"]
+        }
+      }
+    },
+    "Jaypee University Waknaghat": {
+      "about": "Jaypee University of Information Technology - Private deemed university near Solan",
+      "location": "Waknaghat, Solan, HP - 173234",
+      "type": "Private Deemed University",
+      "established": 2002,
+      "intents": {
+        "greetings": {
+          "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "howdy", "greetings", "namaste", "hi there", "what's up"],
+          "responses": ["Hello! Welcome to Jaypee University Waknaghat enquiry! How can I help you?", "Hi! I'm the Jaypee University virtual assistant. Ask me anything!"]
+        },
+        "fees": {
+          "patterns": ["what is the fee", "fees structure", "how much fees", "annual fees", "semester fees", "tuition fee", "total fees", "fee details", "how much does it cost", "fee per year"],
+          "responses": ["Jaypee University B.Tech fee: 1,70,000/year. Total 4-year cost approx 8-9 lakhs. MBA: 2,20,000/year. Scholarships available for meritorious students."]
+        },
+        "courses": {
+          "patterns": ["courses available", "what courses", "which programmes", "branches offered", "engineering courses", "what can i study", "list of courses", "available programmes", "departments", "what do you offer"],
+          "responses": ["Jaypee University offers B.Tech in CSE, ECE, EE, ME, CE, Biotechnology, Chemical Eng. Also MBA, MCA, MSc Biotechnology, and PhD programmes."]
+        },
+        "hostel": {
+          "patterns": ["hostel facility", "accommodation", "hostel available", "hostel charges", "hostel rooms", "boarding facility", "where will i stay", "campus accommodation", "hostel fee", "is hostel available"],
+          "responses": ["Jaypee University is a fully residential campus at Waknaghat near Solan. Excellent hostel facilities with 24/7 Wi-Fi, sports complex, and cafeteria. All students live on campus."]
+        },
+        "placements": {
+          "patterns": ["placement record", "how are placements", "highest package", "companies visit", "placement percentage", "average salary", "job opportunities", "campus recruitment", "placement stats", "average package"],
+          "responses": ["Jaypee University placement 2023: Highest package 40 LPA, Average CSE: 7.2 LPA. 80%+ placement rate. Top recruiters: TCS, Infosys, Accenture, Capgemini, and Samsung."]
+        },
+        "contact": {
+          "patterns": ["contact number", "phone number", "email address", "how to contact", "admission office", "address", "website", "helpline", "get in touch", "reach them"],
+          "responses": ["Jaypee University Contact: Phone: 01792-257999 | Email: admissions@juitsolan.in | Website: www.juitsolan.in | Address: Waknaghat, Solan, HP - 173234"]
+        },
+        "exit": {
+          "patterns": ["bye", "goodbye", "see you", "thanks", "thank you", "exit", "quit", "done", "that's all", "no more questions"],
+          "responses": ["Thanks for your interest in Jaypee University! Wishing you all the best!", "Goodbye! Feel free to return anytime. Good luck!"]
+        }
+      }
+    },
+    "CSKHPKV Palampur": {
+      "about": "Chaudhary Sarwan Kumar Himachal Pradesh Krishi Vishvavidyalaya - Agriculture University",
+      "location": "Palampur, HP - 176062",
+      "type": "State Agriculture University",
+      "established": 1978,
+      "intents": {
+        "greetings": {
+          "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "howdy", "greetings", "namaste", "hi there", "what's up"],
+          "responses": ["Hello! Welcome to CSK HPKV Palampur enquiry! How may I help you?", "Namaste! I'm the CSK HPKV virtual assistant. Ask me about agriculture studies in Himachal Pradesh!"]
+        },
+        "fees": {
+          "patterns": ["what is the fee", "fees structure", "how much fees", "annual fees", "semester fees", "tuition fee", "total fees", "fee details", "how much does it cost", "fee per year"],
+          "responses": ["CSKHPKV BSc Agriculture fee: 25,000-40,000/year. Fees are subsidized heavily for HP domicile students. MVSc and PhD programmes: 30,000-60,000/year."]
+        },
+        "courses": {
+          "patterns": ["courses available", "what courses", "which programmes", "agriculture courses", "what can i study", "list of courses", "available programmes", "departments", "what do you offer", "bsc agriculture"],
+          "responses": ["CSKHPKV Palampur offers: BSc Agriculture (4 years), BSc Horticulture, BFSc (Fisheries), BSc Forestry, MSc Agriculture (20+ specializations), MVSc, and PhD."]
+        },
+        "hostel": {
+          "patterns": ["hostel facility", "accommodation", "hostel available", "hostel charges", "hostel rooms", "boarding facility", "where will i stay", "campus accommodation", "hostel fee", "is hostel available"],
+          "responses": ["CSKHPKV has a beautiful residential campus in Palampur, one of the most scenic university campuses in India. Hostel is mandatory for outstation students. Charges: 10,000-15,000/year."]
+        },
+        "placements": {
+          "patterns": ["placement record", "how are placements", "highest package", "companies visit", "placement percentage", "average salary", "job opportunities", "campus recruitment", "placement stats", "average package"],
+          "responses": ["CSKHPKV graduates get government jobs in HP Agriculture Dept, ICAR institutes, seed companies, agro-industries. Average package 4-7 LPA. Many graduates go into research and civil services."]
+        },
+        "contact": {
+          "patterns": ["contact number", "phone number", "email address", "how to contact", "admission office", "address", "website", "helpline", "get in touch", "reach them"],
+          "responses": ["CSKHPKV Contact: Phone: 01894-230513 | Email: registrar@hillagric.ac.in | Website: www.hillagric.ac.in | Address: Palampur, HP - 176062"]
+        },
+        "exit": {
+          "patterns": ["bye", "goodbye", "see you", "thanks", "thank you", "exit", "quit", "done", "that's all", "no more questions"],
+          "responses": ["Thank you for your interest in CSKHPKV Palampur! Agriculture is the backbone of Himachal. Best wishes!", "Goodbye! Hope to see you at our green, scenic campus in Palampur!"]
+        }
+      }
+    },
+    "JNVU Mandi (JNGEC)": {
+      "about": "Jawaharlal Nehru Government Engineering College Mandi - Government Engineering College",
+      "location": "Mandi, HP - 175001",
+      "type": "Government Engineering College",
+      "established": 1963,
+      "intents": {
+        "greetings": {
+          "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "howdy", "greetings", "namaste", "hi there", "what's up"],
+          "responses": ["Hello! Welcome to JNGEC Mandi enquiry chatbot! How can I assist you?", "Hi there! I'm the JNGEC virtual assistant. What would you like to know about us?"]
+        },
+        "fees": {
+          "patterns": ["what is the fee", "fees structure", "how much fees", "annual fees", "semester fees", "tuition fee", "total fees", "fee details", "how much does it cost", "fee per year"],
+          "responses": ["JNGEC Mandi B.Tech fee: 75,000-85,000/year. Being a government college, fees are very reasonable. Hostel charges approx 25,000/year.", "Total JNGEC B.Tech (4 year) cost is around 3.5-4 lakhs, making it one of the most affordable engineering colleges in HP."]
+        },
+        "courses": {
+          "patterns": ["courses available", "what courses", "which programmes", "branches offered", "engineering courses", "what can i study", "list of courses", "available programmes", "departments", "what do you offer"],
+          "responses": ["JNGEC Mandi offers B.Tech in: CSE, ECE, EE, ME, and CE. Also M.Tech in CSE and ECE. Intake is limited ensuring good faculty-student ratio."]
+        },
+        "hostel": {
+          "patterns": ["hostel facility", "accommodation", "hostel available", "hostel charges", "hostel rooms", "boarding facility", "where will i stay", "campus accommodation", "hostel fee", "is hostel available"],
+          "responses": ["JNGEC Mandi provides hostel facilities for boys and girls separately. Located in scenic Mandi district. Hostel charges are very nominal at 20,000-25,000/year including mess."]
+        },
+        "placements": {
+          "patterns": ["placement record", "how are placements", "highest package", "companies visit", "placement percentage", "average salary", "job opportunities", "campus recruitment", "placement stats", "average package"],
+          "responses": ["JNGEC Mandi placement 2023: Average package 4-6 LPA. Highest 18 LPA (CSE). Companies: TCS, Wipro, Infosys, L&T, and HP government departments."]
+        },
+        "contact": {
+          "patterns": ["contact number", "phone number", "email address", "how to contact", "admission office", "address", "website", "helpline", "get in touch", "reach them"],
+          "responses": ["JNGEC Mandi Contact: Phone: 01905-220103 | Email: principal@jngecmandi.ac.in | Website: www.jngecmandi.ac.in | Address: Sundernagar Road, Mandi, HP - 175001"]
+        },
+        "exit": {
+          "patterns": ["bye", "goodbye", "see you", "thanks", "thank you", "exit", "quit", "done", "that's all", "no more questions"],
+          "responses": ["Thank you for enquiring about JNGEC Mandi! Best of luck!", "Goodbye! Feel free to ask more questions anytime. Good luck with admissions!"]
+        }
+      }
+    }
+  }
+}
